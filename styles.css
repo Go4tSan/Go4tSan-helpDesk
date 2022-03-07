@@ -11525,7 +11525,7 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 body{
-  background: #efefef;
+  background: #405C61;
 }
 /*:::Boton-Modal:::*/
 
@@ -11533,38 +11533,59 @@ body{
 
 /*ESTILOS PARA EL IFRAME*/
 #Iframe-Liason-Sheet {
-    max-width: 550px;
-    max-height: 1200px;
-    overflow: hidden;
-    }
-    /* inner wrapper: make responsive */
-    .responsive-wrapper {
-    position: relative;
-    height: 0; /* gets height from padding-bottom setting */
-    -webkit-overflow-scrolling: touch;
-    overflow: auto;
-    }
-    .responsive-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    border: none;
-    }
-    /* padding-bottom = h/w as a % */
-    .responsive-wrapper-wxh-550x1200 {
-    padding-bottom: 363.6364%;
-    }
-    .iframe-border {
-    border: 1px solid #000;
-    }
-    .center-block-horiz {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    }
+  max-width: 550px;
+  max-height: 1000px;
+  overflow: hidden;
+  }
+  /* inner wrapper: make responsive */
+  .responsive-wrapper {
+  position: relative;
+  height: 0; /* gets height from padding-bottom setting */
+  -webkit-overflow-scrolling: touch;
+  overflow: auto;
+  }
+  .responsive-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  }
+  /* padding-bottom = h/w as a % */
+  .responsive-wrapper-wxh-550x1000{
+  padding-bottom: 363.6364%;
+  }
+  .iframe-border {
+  border: 1px solid #000;
+  }
+  .center-block-horiz {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  }
 /*fin estilos iframe*/
 
+/* change the navbar background color */
+.navbar {
+  background-color: #2c3e50;
+}
 
+/* change the brand and text color */
+.navbar .navbar-brand,
+.navbar .navbar-text {
+  color: #2c3e50;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color: #2c3e50;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: pink;
+}
