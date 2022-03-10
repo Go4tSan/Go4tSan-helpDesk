@@ -6,7 +6,7 @@
 //
 // Scripts
 // 
-if ((navigator.userAgent.match(/Android/i)) && (navigator.userAgent.toLowerCase().indexOf('chrome') > -1)) { isAndroidChrome = true; } var viewportmeta = document.querySelector('meta[name="viewport"]'); 
+ input[type='text'],input[type='number'],textarea {font-size:16px; !important}  
 
 window.addEventListener('DOMContentLoaded', event => {
 
