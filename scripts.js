@@ -6,6 +6,7 @@
 //
 // Scripts
 // 
+if ((navigator.userAgent.match(/Android/i)) && (navigator.userAgent.toLowerCase().indexOf('chrome') > -1)) { isAndroidChrome = true; } var viewportmeta = document.querySelector('meta[name="viewport"]'); 
 
 window.addEventListener('DOMContentLoaded', event => {
 
@@ -52,3 +53,4 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
