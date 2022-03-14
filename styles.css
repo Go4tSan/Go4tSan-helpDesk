@@ -11534,7 +11534,7 @@ body{
 /*ESTILOS PARA EL IFRAME*/
 #Iframe-Liason-Sheet {
   max-width: 760px;
-  max-height: 980px;
+  max-height: 1000px;
   overflow: hidden;
   }
   /* inner wrapper: make responsive */
@@ -11555,7 +11555,7 @@ body{
   border: none;
   }
   /* padding-bottom = h/w as a % */
-  .responsive-wrapper-wxh-760x950{
+  .responsive-wrapper-wxh-760x960{
   padding-bottom: 363.6364%;
   }
   .iframe-border {
